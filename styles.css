@@ -1,0 +1,95 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(black, transparent, black), url("https://d.top4top.io/p_2209m73qr4.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header * {
+    text-align: center;
+    color: white;
+}
+
+.header__description {
+    font-family: Courier;
+    font-size: calc(1em + 0.6vw);
+}
+
+.header__span {
+    color: red;
+}
+
+main {
+    margin: 20vh auto 0 auto;
+    width: 90%;
+}
+
+.intro-section__title {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.3vw;
+    padding: 0 0 2em 0;
+    border-bottom: 5px solid black;
+}
+
+.intro-section__proposition {
+    font-size: 2.3rem;
+    text-align: center;
+    color: rgb(70, 69, 69);
+    padding: 0 0 3em 0;
+}
+
+.benefits-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.benefits-section__benefits-item {
+    font-size: 2.0rem;
+    border-bottom: 1px solid rgb(129, 126, 126);
+    width: 100%;
+    padding: 1em 0;
+}
+
+.benefits-item__descriptor {
+    font-weight: 200;
+    font-size: 0.7em;
+    margin-top: 0.3em;
+}
+
+.benefits-item__img {
+    float: left;
+    width: 80px;
+    margin: 0 0.5em 0.2em 0;
+}
+
+.showcase-section {
+    margin: 20vh 0;
+}
+
+.showcase-section__title {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.3vw;
+    padding: 0 0 1em 0;
+    border-bottom: 5px solid black;
+}
+
+img.float-right {
+    float: right;
+}
